@@ -1,0 +1,19 @@
+/* Help-page-only styling. app.css supplies the shared Audio Lab theme. */
+.help-page { max-width: 970px; margin: 0 auto; padding: 42px 20px 70px; }
+.help-card { max-width: 860px; margin: 0 auto; padding: clamp(22px, 4vw, 42px); }
+.help-card h1 { margin: 12px 0 20px; font-size: clamp(1.8rem, 4vw, 2.8rem); line-height: 1.15; letter-spacing: -.035em; }
+.help-card h2 { margin: 32px 0 12px; color: var(--blue); font-size: 1.18rem; line-height: 1.4; }
+.help-card h3 { color: var(--accent); }
+.help-card p, .help-card li { line-height: 1.7; }
+.help-card p { margin: 0 0 16px; }
+.help-card ul { padding-left: 24px; margin: 12px 0 20px; }
+.help-card li { margin-bottom: 12px; }
+.help-card li ul { margin-top: 10px; }
+.help-card strong { color: var(--text); }
+.help-card .highlight { display: inline; padding: .12em .4em; border-radius: 5px; background: var(--panel2); color: var(--accent); font-weight: 700; box-decoration-break: clone; -webkit-box-decoration-break: clone; }
+.help-card .go-to { color: #91e5b7; font-weight: 700; }
+.help-card .avoid { color: #ffaaaa; font-weight: 700; }
+.help-card .experiment-box { margin-top: 30px; padding: 24px; background: var(--panel2); border: 1px solid var(--line); border-left: 4px solid var(--accent); border-radius: 12px; }
+.help-card .experiment-box h2 { color: var(--text); margin: 0 0 12px; }
+.help-card .experiment-box p:last-child { margin-bottom: 0; }
+@media (max-width: 670px) { .help-page { padding: 24px 14px 50px; } .help-card { padding: 22px 18px; } .help-card ul { padding-left: 19px; } .help-card .experiment-box { padding: 18px; } }

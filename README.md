@@ -14,7 +14,7 @@ Open **http://localhost:8000** in a modern browser. (ES modules are more reliabl
 
 ## Controls
 
-- Carrier: 100–600 Hz.
+- Carrier: 100–1200 Hz.
 - Left-right offset: 0.5–30 Hz; theta preset 6 Hz. Toggle offset off for matched-ear tones.
 - Waveforms: sine, triangle, square.
 - Playback: continuous, single gated pulse, alternating two pitches, separated three-note pattern, overlapping three-note pattern.
@@ -32,5 +32,7 @@ Open **http://localhost:8000** in a modern browser. (ES modules are more reliabl
 - Stereo channels require headphones for binaural listening.
 
 Not a medical device. Avoid listening if it worsens tinnitus or causes discomfort. No specific frequency is known to reliably induce a theta brain state or treat ADHD/sleep conditions.
-"# aud" 
-"# aud" 
+
+## Version 0.2
+- Increased maximum carrier frequency to 1200 Hz for higher-pitched listening experiments.
+- No changes to the audio engine or previously selected settings.
